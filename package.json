@@ -1,0 +1,20 @@
+{
+  "name": "nytreact",
+  "version": "1.0.0",
+  "description": "Node/Express/Handlebars/MongoDB/ReactJS App",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/o-soft/nytreact.git"
+  },
+  "author": "oscar luna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/o-soft/nytreact/issues"
+  },
+  "homepage": "https://github.com/o-soft/nytreact#readme"
+}
