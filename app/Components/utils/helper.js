@@ -2,7 +2,7 @@
 var axios = require('axios');
 
 // New York Times API
-var nytAPI = "45ae6c35b10b457cbd8fd3541a4afc7d";
+var nytAPI = "d8966fd97abd46028557596c31b5fd0e";
 
 // Helper Functions
 var helpers = {
