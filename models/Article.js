@@ -11,13 +11,10 @@ var ArticleSchema = new Schema({
   },
   date: {
   	type: Date,
-  	default: Date.now,
-  	required: "Date is Required"
+  	default: Date.now
   },
   url: {
   	type: String,
-  	required: true,
-  	required: "URL is Required",
   	unique: true
   }
 });
