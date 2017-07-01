@@ -8,6 +8,9 @@ var Article = require('./models/Article.js');
 
 var app = express();
 var PORT = process.env.PORT || 8080;
+
+//models and ODM
+
 var path = require('path');
 // Run Morgan for Logging
 app.use(logger('dev'));
@@ -20,9 +23,10 @@ app.use('/public', express.static('./public'));
 
 // mongo db connection here 
 
-mongoose.connect('mongodb://localhost/nytreact');
 
 var db = mongoose.connection;
+
+mongoose.connect(process.env.uri);
 
 // var uri = "mongodb://;
 
